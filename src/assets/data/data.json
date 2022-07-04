@@ -1,13 +1,11 @@
 {
-  "name": "Ayelen Iasich",
+  "name": "Ayelén",
+  "lastName": "Iasich",
+  "degree": "Full Stack Developer Jr.",
+  "descriptionMain": "Hey, hola! Soy Aye Iasich reciente desarrolladora full stack y estudiante avanzada del profesorado del inglés. Apasionada por el mundo de la programación ",
   "backImage": "src/assets/default_Image.jpg",
-  "image": "src/assets/default_Image.jpg",
+  "image": "assets/Icons/ScrollDownicon.svg",
   "position": "Informática",
-  "company": {
-    "name": "Coca Cola",
-    "img": "src/assets/default_Image.jpg",
-    "url": "#"
-  },
   "school": {
     "name": "Ipes Floretino Ameghino",
     "img": "src/assets/default_Image.jpg",
@@ -15,18 +13,18 @@
   },
   "ubication": "Ushuaia (Argentina)",
   "about": "Super Desarrollador desde Ushuaia hacia el mundo universal del metaverso",
-  "experience":[{
-    "position": "Super Distribuidora",
-    "company":"Coca Cola",
-    "img":"src/assets/default_Image.jpg",
-    "mode":"Jornada Parcial",
-    "start":"mar 2018",
-    "end":"actualidad",
-    "timeElapsed": "2 años y 6 meses"
-
-  }],
+  "experience": [
+    {
+      "position": "Super Distribuidora",
+      "company": "Coca Cola",
+      "img": "src/assets/default_Image.jpg",
+      "mode": "Jornada Parcial",
+      "start": "mar 2018",
+      "end": "actualidad",
+      "timeElapsed": "2 años y 6 meses"
+    }
+  ],
   "education": [
-
     {
       "school": "Colegio Técnico Provincial “Olga Bronzovich de Arko” Ushuaia: Educación Secundaria - Técnica.",
       "title": "Secundaria",

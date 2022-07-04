@@ -1,27 +1,36 @@
 <app-header></app-header>
-<div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="..." class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+<app-main></app-main>
+<div class="conteiner" id="sobre-mi" >
+
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="../assets/default_Image.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
       </div>
     </div>
   </div>
+
+<div class="nombre">
+    <p>
+    Name: {{ nameField.value }}
+    <input type="text" [formControl]="nameField" />
+  </p>
 </div>
 
+  <div class="card">
+    <p>Description:</p>
+    <p>  {{ descriptionField.value }}</p>
+  </div>
 
-<p>
-  Name: {{ nameField.value }}
-  <input type="text" [formControl]="nameField" />
-</p>
-<div class="card">
-  <p>Description:</p>
-  <p>  {{ descriptionField.value }}</p>
+  <textarea class="mt-2" type="text" [formControl]="descriptionField"> </textarea>
+
+
+
 </div>
-
-<textarea class="mt-2" type="text" [formControl]="descriptionField"> </textarea>
