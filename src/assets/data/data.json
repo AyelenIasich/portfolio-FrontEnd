@@ -24,24 +24,60 @@
       "timeElapsed": "2 años y 6 meses"
     }
   ],
-  "education": [
+  "lista": [
     {
-      "school": "Colegio Técnico Provincial “Olga Bronzovich de Arko” Ushuaia: Educación Secundaria - Técnica.",
-      "title": "Secundaria",
-      "img": "src/assets/default_Image.jpg",
+      "title": "Colegio Técnico Provincial “Olga Bronzovich de Arko” Ushuaia: Educación Secundaria - Técnica.",
+
       "career": "Educación Polimodal Modalidad Economía y Gestión de las Organizaciones articulado con Trayecto Técnico Provincial Gestión",
-      "score": "",
+
       "start": "2008",
-      "end": "2010"
+      "end": "2010",
+      "description": "asdfasdfasd"
+    },
+    {
+      "title": "Terceria",
+      "career": "Profesorado de Ingles",
+      "start": "2017",
+      "end": "2022",
+      "description": "adsfasdfasdfasdfasd"
+    }
+  ],
+  "educacion": [
+    {
+      "school": "Argentina Programa: #YoProgramo",
+      "title": "Bootcamp",
+      "img": "",
+      "career": "Full Stack Developer Jr.",
+      "score": "",
+      "start": "2022",
+      "end": "2022"
+    },
+    {
+      "school": "Argentina Programa: #SéProgramar",
+      "title": "Bootcamp",
+      "img": "",
+      "career": "Fundamentos de la programación",
+      "score": "",
+      "start": "2021",
+      "end": "2021"
     },
     {
       "school": "Ipes Florentino Ameghino",
       "title": "Terceria",
       "img": "",
-      "career": "Profesorado de Ingles",
+      "career": "Profesorado de Inglés",
       "score": "",
       "start": "2017",
       "end": "2022"
+    },
+    {
+      "school": "Colegio Técnico Provincial “Olga Bronzovich de Arko”.",
+      "title": " Educación Secundaria - Técnica",
+      "img": "src/assets/default_Image.jpg",
+      "career": "Educación Polimodal Modalidad Economía y Gestión de las Organizaciones articulado con Trayecto Técnico Provincial Gestión",
+      "score": "",
+      "start": "2008",
+      "end": "2010"
     }
   ],
 

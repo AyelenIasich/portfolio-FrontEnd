@@ -1,0 +1,73 @@
+<section class="skills" id="skills">
+  <div class="container mt-4">
+    <div class="row align-items-center">
+      <div class="col-12 text-center p-4">
+        <h1>Skills</h1>
+      </div>
+
+      <div class="col-12 justify-text-center">
+        <h2>Formación</h2>
+        <ul class="list-group">
+          <li class="p-0">
+            <div class="card mb-1" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-4 align-self-center">
+                  <img
+                    src="../assets/default_Image.jpg"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="list-group-item"></li>
+          <li class="list-group-item">A third item</li>
+          <li class="list-group-item">A fourth item</li>
+          <li class="list-group-item">And a fifth one</li>
+        </ul>
+      </div>
+      <div class="col"></div>
+    </div>
+
+    <div class="nombre">
+      <p>
+        Name: {{ nameField.value }}
+        <input type="text" [formControl]="nameField" />
+      </p>
+    </div>
+
+    <div class="card">
+      <p>Description:</p>
+      <p>{{ descriptionField.value }}</p>
+    </div>
+
+    <textarea class="mt-2" type="text" [formControl]="descriptionField">
+    </textarea>
+
+    <ul class="list-group" cdkDropList (cdkDropListDropped)="onDropped($event)">
+      <li class="list-group-item" *ngFor="let educacion of educacionList" cdkDrag >
+        <div>
+          <h3>{{ educacion.school }}</h3>
+          <p>
+            <time>{{ educacion.start }}</time> -
+            <time>{{ educacion.end }}</time>
+          </p>
+          <p>{{educacion.career}}</p>
+
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>

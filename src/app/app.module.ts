@@ -7,18 +7,22 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import {HttpClientModule } from '@angular/common/http';
 import { MainComponent } from './components/main/main.component';
+import { ExperienciaFormacionComponent } from './components/experiencia-formacion/experiencia-formacion.component';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    MainComponent
+    MainComponent,
+    ExperienciaFormacionComponent
   ],
   imports: [
     BrowserModule,
     ReactiveFormsModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    DragDropModule
   ],
   providers: [],
   bootstrap: [AppComponent]
